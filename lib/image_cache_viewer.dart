@@ -1,1 +1,1 @@
-export 'ImageCacheViewer.dart';
+export 'src/ImageCacheViewer.dart';

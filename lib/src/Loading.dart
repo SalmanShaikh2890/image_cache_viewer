@@ -2,7 +2,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter/material.dart';
 
 class Loading extends StatelessWidget {
-  String mystring;
+  final String mystring;
   Loading({this.mystring});
   @override
   Widget build(BuildContext context) {

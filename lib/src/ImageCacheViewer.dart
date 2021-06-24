@@ -2,11 +2,11 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:http/http.dart' as http;
-import 'package:image_cache_viewer/Loading.dart';
+import 'package:image_cache_viewer/src/Loading.dart';
 
 class ImageCacheViewer extends StatefulWidget {
-  String url;
-  Widget errorWidget,loadingWidget;
+  final String url;
+  final Widget errorWidget,loadingWidget;
 
   ImageCacheViewer(this.url, {this.errorWidget,this.loadingWidget});
 
